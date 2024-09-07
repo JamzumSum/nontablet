@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nontablet"
+version = "0.3.0"
+description = "Disable Windows Tablet Mode"
+authors = ["JamzumSum <zzzzss990315@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11,<3.14"
+rotate-screen = "^0.1.5"
+pyuac = "^0.0.3"
+
+[tool.poetry.group.dev]
+optional = true
+
+[tool.poetry.group.dev.dependencies]
+pyinstaller = "^6.10.0"
+isort = "*"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
