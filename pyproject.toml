@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nontablet"
-version = "0.3.0"
+version = "0.3.1"
 description = "Disable Windows Tablet Mode"
 authors = ["JamzumSum <zzzzss990315@gmail.com>"]
 license = "MIT"
